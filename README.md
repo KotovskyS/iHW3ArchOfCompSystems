@@ -16,7 +16,7 @@
 
 Для корректной работы программы нужно использовать один из видов ввода:
 
-./a.out -s output.txt
+./a.out -s output.txt <br>
 2 4 5 10
 
 ./a.out -r output.txt
