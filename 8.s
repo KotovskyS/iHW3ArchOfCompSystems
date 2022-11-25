@@ -83,13 +83,13 @@ S:
 	.section	.rodata
 	.align 8
 .LC1:
-	.string	"Incrorrect input, check README.md"
+	.string	"Некорректный ввод!"
 .LC2:
 	.string	"-r"
 .LC3:
 	.string	"w"
 .LC4:
-	.string	"incorrect file"
+	.string	"Некорректный или несуществующий файл!"
 	.align 8
 .LC5:
 	.string	"random numbers: a = %lf, b = %lf, A = %d, B = %d\n"
@@ -98,16 +98,16 @@ S:
 .LC8:
 	.string	"-h"
 .LC9:
-	.string	"\n-h help"
+	.string	"\n-h вывести справку"
 	.align 8
 .LC10:
-	.string	"-r create random numbers (a, b, A, B)"
+	.string	"-r Создать случайные коэффициенты и границы (a, b, A, B)"
 	.align 8
 .LC11:
-	.string	"-f use numbers from first file and save result in second file"
+	.string	"-f считать данные из input.txt и записать результат в output.txt"
 	.align 8
 .LC12:
-	.string	"-s take numbers from terminal and print result in file"
+	.string	"-s Считать данные из терминала и записать в файл."
 .LC13:
 	.string	"-f"
 .LC14:
